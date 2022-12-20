@@ -1,0 +1,39 @@
+footer {
+  background-color: black;
+  color: #fff;
+  width: 1444px;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+}
+.items-izquierda {
+  display: flex;
+  flex-direction: column;
+}
+.items-izquierda h1 {
+  margin-left: 70px;
+}
+.items-izquierda nav {
+  margin-left: 30px;
+}
+.items-izquierda nav ul {
+  display: flex;
+}
+.items-izquierda nav ul li {
+  padding-right: 25px;
+  list-style: none;
+}
+/* lado derecho del footer */
+.items-derecha {
+  display: flex;
+  flex-direction: column;
+}
+.items-derecha figure {
+  margin-top: 20px;
+}
+.items-derecha img {
+  margin: 10px;
+}
+.items-derecha p {
+  margin-top: 10px;
+}
