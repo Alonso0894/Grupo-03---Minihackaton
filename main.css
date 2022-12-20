@@ -28,12 +28,21 @@
 
 .link-header {
     display: flex;
-    justify-content: space-around;
     list-style: none;
+}
+
+.link-top {
     font-family: 'Josefin Sans', sans-serif;
     color: white;
-    width: 500px;
     margin-right: 50px;
+}
+
+.link-top:hover {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    margin-right: 50px;
+    cursor: pointer;
+    border-bottom: solid white 2px;
 }
 
 .title-header {
